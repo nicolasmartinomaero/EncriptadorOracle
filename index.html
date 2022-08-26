@@ -10,17 +10,31 @@
 <body>
     <div class="container">
         <div class="logo">
-            <p id="logo" >ENCRIPTADOR DE MENSAJES </p>
+            <img id="logoImg" src="/Vector.png" alt="">
+            <h2 id="tittle">ENCRIPTADOR DE MENSAJES</h2>
         </div>
         <div class="left">
-            <input type="text">
+            <input class="inputText" id="input1" type="text" placeholder="Ingrese texto aqui">
         </div>
         <div class="right">
-            <p>nicolas</p>
+            <img id="muñeco" src="/Muñeco.png" alt="">
+            <h3 id="texto">Ningun mensaje fue encontrado</h3>
+            <textarea name="" id="texto2" cols="30" rows="10">Ingrese el texto que desees desencriptar</textarea>
+            <input type="button" id="copiar" value="¡Copiar!" onclick="copiar()">
         </div>
         <div class="btn">
-            <p>nicolas</p>
+            <div>
+                <p id="mensajemin">solo letras en minusculas y sin acento</p>
+            </div>
+            <input type="button" id="btn-encriptar" value="Encriptar" onclick="encriptar()">
+            <input type="button" id="btn-desencriptar" value="Desencriptar" onclick="desencriptar()">
         </div>
+        <footer>
+            <div>
+                <p id="nombreN">Nicolas Martino Maero</p>
+            </div>
+        </footer>
     </div>
+    <script src="/codigo.js"></script>
 </body>
 </html>
