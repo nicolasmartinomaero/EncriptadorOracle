@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.container{
+    margin: auto;
+    width: 960px;
+    height: 640px;
+    background-color: rgb(196, 170, 170);
+    padding: 4px;
+}
+
+.logo{
+    background-color: blue;
+    width: 100%;
+}
+
+.left{
+    float: left;
+    width: 50%;
+    margin-top: 30%;
+}
+
+.right{
+    background-color: green;
+    float: right;
+    width: 40%;
+    margin-top: 30%;
+}
+
+.btn{
+    background-color: brown;
+    margin-top: 50%;
+}
